@@ -23,6 +23,11 @@ picture img {
  width: 100%;
 }
 
+.rogo {
+  width: 25.5px;
+  height: 25px;
+}
+
 /* ヘッダー */
 header {
   width: 100%;
@@ -138,4 +143,55 @@ header {
   #greeting-sentence > br {
    display: none;
   }
+}
+
+/* about（強み） */
+#about {
+  padding-block: 70px;
+}
+
+.title-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title {
+  font-size: 25px;
+  line-height: 1.448;
+  padding-inline: 20px;
+}
+
+.about-wrap {
+ margin-top: 47px;
+ display: grid;
+ row-gap: 50px;
+}
+
+.about-list {
+  display: flex;
+  column-gap: 45px;
+}
+
+.about-text-wrap{
+  display: grid;
+  row-gap: 20px;
+  width: 45%;
+  text-align: left;
+  margin-block: 55px;
+}
+
+.about-title {
+  width: 100%;
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+.about-detail {
+  width: 100%;
+  font-size: 18px;
+  line-height: 1.83;
+}
+
+.about-img-wrap{
+  width: 50%;
 }
