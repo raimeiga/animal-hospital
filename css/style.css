@@ -52,6 +52,12 @@ header {
 
 
 /* main */
+
+#box {
+ height: 503px;
+ 
+}
+
 #main-visual{
  position: relative;  
  /* 子要素どうしが重なるので、親にposition: relativeを指定 */
@@ -147,7 +153,9 @@ header {
 
 /* about（強み） */
 #about {
-  padding-block: 70px;
+  background-color: rgba(13, 150, 160, 0.102);
+  /* background-color: #000; */
+  padding-block: 64px 62px;
 }
 
 .title-wrap {
@@ -162,14 +170,14 @@ header {
 }
 
 .about-wrap {
- margin-top: 47px;
+ margin-top: 44px;
  display: grid;
- row-gap: 50px;
+ row-gap: 46.5px;
 }
 
 .about-list {
   display: flex;
-  column-gap: 45px;
+  column-gap: 44px;
 }
 
 .about-text-wrap{
@@ -177,7 +185,8 @@ header {
   row-gap: 20px;
   width: 45%;
   text-align: left;
-  margin-block: 55px;
+  /* margin-block: 55px; */
+  margin-block: 50px;
 }
 
 .about-title {
@@ -195,3 +204,39 @@ header {
 .about-img-wrap{
   width: 50%;
 }
+
+/* service（サービス） */
+#service {
+  margin-block: 63px 59px;
+}
+
+.service-wrap {
+  margin-top: 48px;
+  display: flex;
+  column-gap: 50px;  
+}
+
+.service-list {
+ width: 29.54%;
+ text-align: center;
+ display: grid;
+ row-gap: 19px; 
+}
+
+.service-text-wrap {
+  display: grid;
+  row-gap: 8px; 
+}
+
+.service-title {
+  font-size: 20px;
+  line-height: 1.25;
+}
+
+.service-detail {
+  font-size: 17px;
+  line-height: 1.76;
+  text-align: left;
+}
+
+
