@@ -18,3 +18,105 @@ body {
  color:#505050; 
  letter-spacing: 0;
 }
+
+picture img {
+ width: 100%;
+}
+
+/* ヘッダー */
+header {
+ height: 50px;
+}
+
+#header-inner {
+ height: inherit;
+ display: flex;
+ justify-content: space-between;
+}
+
+.header-name {
+ height: inherit;
+ display: flex;
+}
+
+.nav-list{
+ height: inherit;
+ display: flex; 
+}
+
+
+/* main */
+#main {
+ position: relative;  
+ /* 子要素どうしが重なるので、親にposition: relativeを指定 */
+ display: flex; 
+}
+
+.caption {
+ width: 45.55%;
+ position: absolute;
+ /* 重ねる要素にはposition: absolute;を指定（親にrelative） */
+ z-index: 11;
+ top: 152px ;
+ background-color: rgba(255, 255, 255, 0.702);
+ padding: 22px 3.24% 22px 9.1%;
+ display: grid;
+  row-gap: 10px; 
+  /* row-gapはdisplay: gridプロパティの値 */
+}
+
+/* 
+.caption {
+ width: 45.55%;
+ position: absolute; 
+ z-index: 11;
+ top: 152px ;
+ background-color: rgba(255, 255, 255, 0.702);
+  display: grid;
+  row-gap: 10px;   
+  max-width: 492px;
+  max-width: 100%;   
+  padding: 22px 35px 22px 9.1%;
+} */
+
+#main h2 { 
+ font-size: 25px; 
+ line-height: 1.44;
+}
+
+#main h3 {
+ color: #0D96A0;
+ font-size: 40px;
+ line-height: 1.5;
+}
+
+.picture-wrap{ 
+ position: absolute; 
+ display: block;   
+ z-index: 10;  
+}
+/* ↑重ねる要素にはposition: absolute;を指定（親にrelative） */
+
+
+#greeting {
+
+}
+
+.inner{
+ display: block;
+ max-width: 960px;
+ /* 960pxはpaddin:40px;ずつ含めて */
+  width: 100%;
+  padding-inline: 40px;
+  margin-inline: auto;  
+}
+
+#greeting-title {
+ font-size: 30px;
+ line-height: 1.66;
+}
+
+#greeting-sentence {
+ font-size: 18px;
+ line-height: 1.83;
+}
