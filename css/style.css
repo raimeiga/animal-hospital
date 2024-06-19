@@ -101,6 +101,14 @@ header {
   row-gap: 15px;
 }
 
+#rogo-3footmarks {
+  width: 83.75px;
+  height: 77.12px;
+  position: absolute;
+  top:722.99px;
+  left: 920px;
+}
+
 .inner{
  display: block;
  max-width: 960px;
