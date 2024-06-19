@@ -1,6 +1,20 @@
+@charset "utf-8";
+
 html {
  padding: 0;
  margin: 0;
  scroll-behavior: smooth;
 }
 
+body {
+ background-color: #fff;    
+ font-family: "Noto Sans JP","Yu Gothic","游ゴシック","YuGothic","游ゴシック体", sans-serif; 
+ /* Noto Sans Jは、macOSのVentura,Monterey,Big Sur,Catalina,Mojaveに標準インストール
+ Yu Gothicは、Windows11,10,8.1に標準インストール
+ YuGothicは、macOSのMojave、iOSに標準インストール 
+ 游ゴシック体はVentura、Monterey、Big Su、Catalinaに標準インストール  */
+ font-weight: 700;  
+ /* fontの太さは700,500のいずれか */
+ color:#505050; 
+ letter-spacing: 0;
+}
