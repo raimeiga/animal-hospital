@@ -25,6 +25,7 @@ picture img {
 
 /* ヘッダー */
 header {
+  width: 100%;
  height: 50px;
 }
 
@@ -46,7 +47,7 @@ header {
 
 
 /* main */
-#main {
+#main-visual{
  position: relative;  
  /* 子要素どうしが重なるので、親にposition: relativeを指定 */
  display: flex; 
@@ -79,12 +80,12 @@ header {
   padding: 22px 35px 22px 9.1%;
 } */
 
-#main h2 { 
+#main-visual h2 { 
  font-size: 25px; 
  line-height: 1.44;
 }
 
-#main h3 {
+#main-visual h3 {
  color: #0D96A0;
  font-size: 40px;
  line-height: 1.5;
@@ -98,8 +99,12 @@ header {
 /* ↑重ねる要素にはposition: absolute;を指定（親にrelative） */
 
 
-#greeting {
+/* greeting */
 
+#greeting {
+  margin-block: 60px;
+  background-color: yellow;
+  row-gap: 15px;
 }
 
 .inner{
@@ -112,11 +117,25 @@ header {
 }
 
 #greeting-title {
+  text-align: center;
  font-size: 30px;
  line-height: 1.66;
+ /* margin-inline: auto;  */
+ margin: 0 auto 15px;
 }
 
 #greeting-sentence {
+  text-align: center;
  font-size: 18px;
  line-height: 1.83;
+ margin-inline: auto; 
+}
+
+@media screen and (max-width: 905px) {
+  #greeting-sentence {
+    text-align:left;
+  }
+  #greeting-sentence > br {
+   display: none;
+  }
 }
