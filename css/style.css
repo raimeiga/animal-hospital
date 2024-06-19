@@ -77,20 +77,6 @@ header {
   /* row-gapはdisplay: gridプロパティの値 */
 }
 
-/* 
-.caption {
- width: 45.55%;
- position: absolute; 
- z-index: 11;
- top: 152px ;
- background-color: rgba(255, 255, 255, 0.702);
-  display: grid;
-  row-gap: 10px;   
-  max-width: 492px;
-  max-width: 100%;   
-  padding: 22px 35px 22px 9.1%;
-} */
-
 #main-visual h2 { 
  font-size: 25px; 
  line-height: 1.44;
@@ -102,18 +88,15 @@ header {
  line-height: 1.5;
 }
 
-.picture-wrap{ 
- position: absolute; 
+#dog-and-doctor {
  display: block;   
  z-index: 10;  
 }
 /* ↑重ねる要素にはposition: absolute;を指定（親にrelative） */
 
-
 /* greeting */
-
 #greeting {
-  margin-block: 60px;
+  margin-block: 63px 58px;
   background-color: yellow;
   row-gap: 15px;
 }
@@ -170,7 +153,7 @@ header {
 }
 
 .about-wrap {
- margin-top: 44px;
+ margin-top: 46px;
  display: grid;
  row-gap: 46.5px;
 }
