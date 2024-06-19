@@ -23,10 +23,7 @@ picture img {
  width: 100%;
 }
 
-.rogo {
-  width: 25.5px;
-  height: 25px;
-}
+
 
 /* ヘッダー */
 header {
@@ -101,14 +98,6 @@ header {
   row-gap: 15px;
 }
 
-#rogo-3footmarks {
-  width: 83.75px;
-  height: 77.12px;
-  position: absolute;
-  top:722.99px;
-  left: 920px;
-}
-
 .inner{
  display: block;
  max-width: 960px;
@@ -142,6 +131,14 @@ header {
   }
 }
 
+/* #rogo-3footmarks {
+  width: 83.75px;
+  height: 77.12px;
+  position: absolute;
+  top:722.99px;
+  left: 920px;
+} */
+
 /* about（強み） */
 #about {
   background-color: rgba(13, 150, 160, 0.102);
@@ -151,14 +148,49 @@ header {
 
 .title-wrap {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  justify-content: center;  
 }
-.title {
+.title {  
+  margin: 0 20px;  
   font-size: 25px;
   line-height: 1.448;
-  padding-inline: 20px;
 }
+
+.title::before,
+.title::after {
+  content: " ";
+  background-image: url(../images/足跡_1.jpg);
+  background-size: contain;
+  vertical-align: middle;
+  display: inline-block;
+  width: 25.5px;
+  height: 25px;
+  margin-inline: 17.5px 17.5px;  
+  }
+
+/* .title::before {
+  content:url(./images/足跡_1.jpg) ;
+  display: inline-block;
+  width: 25.5px;
+  height: 25px;
+  
+} */
+
+/* 
+.title-name::before {
+  background-image: url(./images/足跡_1.jpg);
+  
+  display: inline-block;
+  width: 25.5px;
+  height: 25px;
+  content: '';
+} */
+
+/* .rogo {
+  width: 25.5px;
+  height: 25px;
+} */
+
 
 .about-wrap {
  margin-top: 46px;
