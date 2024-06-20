@@ -238,9 +238,60 @@ header {
 
 /* （お知らせ） */
 #news {
-  height: 513px;
   background-color: aqua;
+  padding-block: 65px 68px;
 }
+
+.title-wrap {
+  
+}
+
+.news-wrap {
+  margin-top: 43px;
+  border-top: solid 1px #707070;
+}
+
+.news-item {
+  display: block;
+  border-bottom: solid 1px #707070;
+}
+
+.news-item  > a {
+  /* background-color: yellow; */
+  display: flex;
+  justify-content: left;
+  transition: all 1s ease-out; 
+}
+
+.news-item > a >:hover {
+  color: yellow;
+}
+
+.date {
+  font-size: 17px;
+  line-height: 1.47;
+  padding: 18px 12px 17px 21px;
+  transition: all 1s ease-out; 
+}
+.news-headline {
+  /* width: 22.3%; */
+  width: 23.3%;
+  color: #0D96A0;
+  font-size: 20px;
+  line-height: 1.25;
+  padding-left: 25px;
+  padding: 18px 24.5px 17px 12.5px;
+  transition: all 1s ease-out; 
+}
+.news-article {
+  /* width: 63.3%; */
+  width: 66.3%;
+  font-size: 17px;
+  line-height: 1.764;
+  padding: 15px 40px 15px 24.5px;
+  transition: all 1s ease-out; 
+}
+
 
 
 /* access（アクセス） */
