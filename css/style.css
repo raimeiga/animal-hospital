@@ -23,8 +23,6 @@ picture img {
  width: 100%;
 }
 
-
-
 /* ヘッダー */
 header {
   width: 100%;
@@ -168,30 +166,6 @@ header {
   margin-inline: 17.5px 17.5px;  
   }
 
-/* .title::before {
-  content:url(./images/足跡_1.jpg) ;
-  display: inline-block;
-  width: 25.5px;
-  height: 25px;
-  
-} */
-
-/* 
-.title-name::before {
-  background-image: url(./images/足跡_1.jpg);
-  
-  display: inline-block;
-  width: 25.5px;
-  height: 25px;
-  content: '';
-} */
-
-/* .rogo {
-  width: 25.5px;
-  height: 25px;
-} */
-
-
 .about-wrap {
  margin-top: 46px;
  display: grid;
@@ -261,5 +235,80 @@ header {
   line-height: 1.76;
   text-align: left;
 }
+
+/* （お知らせ） */
+#news {
+  height: 513px;
+  background-color: aqua;
+}
+
+
+/* access（アクセス） */
+#access {
+  margin-block: 63px 72px;  
+}
+
+.access-wrap {  
+  display: flex;
+  column-gap: 48px;
+  margin-top: 46px;
+}
+
+.access-wrap > iframe {
+  width: 50%;
+  height: 300px
+}
+
+.access-info-wrap {  
+  width: 44.31%;
+}
+
+.access-info-wrap > h3 {
+  font-size: 22px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.info-font-18 {
+  font-size: 18px;
+}
+
+.info-font-18 > span {
+  font-size: 25px;
+  line-height: 1.6;  
+}
+
+#info-address {
+  margin-bottom: 14px;
+  line-height: 1.5;  
+}
+
+#info-tel {
+  margin-bottom: 8px;
+  line-height: 1.5; 
+}
+
+#info-mail {
+  margin-bottom: 26px;
+  line-height: 1.5; 
+}
+
+.access-info-wrap > div > p {
+  font-size: 18px;
+  line-height: 2.22;
+  padding-block: 15px 12px;
+  /* background-color: yellow; */
+  border-top: solid 1px #707070;
+  border-bottom: solid 1px #707070;
+}
+
+/* 
+#info-time {
+margin-bottom: px;
+}
+#info-closed {
+margin-bottom: px;
+} */
+
 
 
